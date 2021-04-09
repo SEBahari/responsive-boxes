@@ -27,3 +27,17 @@ html, body {
 .row {
   display: flex;
 }
+
+@media screen and (max-width: 576px) {
+  .box{
+    width: 250px;
+    height: 250px;
+    margin-top: 170px;
+  }
+  .box:last-child{
+    margin-bottom: 170px;
+  }
+  .row{
+    flex-direction: column;
+  }
+}
