@@ -14,6 +14,11 @@ html, body {
   height: 100px;
   background-color: lightseagreen;
   margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-size: 32px;
 }
 
 .container {
